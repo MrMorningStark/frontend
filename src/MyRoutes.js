@@ -6,7 +6,7 @@ import { PORTFOLIO_ROUTES } from "./constant/constant";
 export const MyRoutes = () => {
 
     const redirectRoute = {
-        path: '',
+        path: '/',
         element: <Navigate to={PORTFOLIO_ROUTES.portFolio} />,
     }
 
