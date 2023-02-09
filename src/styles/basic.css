@@ -1,0 +1,77 @@
+/* height width */
+.h100 {
+  height: 100%;
+}
+.h100v {
+  height: 100vh;
+}
+.w100 {
+  width: 100%;
+}
+.w100v {
+  width: 100vw;
+}
+.hw100 {
+  height: 100%;
+  width: 100%;
+}
+.hw100v {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*vertical horizontal center */
+.vc {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.hc {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.c {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* cursor pointer */
+.pointer {
+  cursor: pointer;
+}
+
+/* full height without navbar */
+.fullHeight {
+  height: calc(100vh - 80px);
+}
+
+.overflowX{
+  overflow-x: hidden;
+}
+.overflowY{
+  overflow-y: hidden;
+}
+.overflow{
+  overflow: hidden;
+}
+
+.fixed{
+  position: fixed;
+}
+
+
+/* 2 divs side by side */
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 1024px) {
+  #mySelfGrid {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+}
