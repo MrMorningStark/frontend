@@ -4,7 +4,7 @@ import { NewsHome } from "../modules/Project_news/modules/newsHome/NewsHome";
 import { Main } from "../modules/Project_news/Main";
 
 export const newsRoutes = {
-    path: NEWS_ROUTES.news,
+    path: NEWS_ROUTES.home,
     element: <Main />,
     children: [
         {
