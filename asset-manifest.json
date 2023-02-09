@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.87aae7eb.css",
+    "main.js": "/my-portfolio/static/js/main.acb51b95.js",
+    "static/js/787.cda612ba.chunk.js": "/my-portfolio/static/js/787.cda612ba.chunk.js",
+    "static/media/rajat.jpg": "/my-portfolio/static/media/rajat.3a616cc58bd13763c1f2.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.87aae7eb.css.map": "/my-portfolio/static/css/main.87aae7eb.css.map",
+    "main.acb51b95.js.map": "/my-portfolio/static/js/main.acb51b95.js.map",
+    "787.cda612ba.chunk.js.map": "/my-portfolio/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87aae7eb.css",
+    "static/js/main.acb51b95.js"
+  ]
+}
