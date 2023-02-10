@@ -5,11 +5,11 @@ import {Projects} from "../modules/project-portfolio/projects/Projects";
 import { NotFound404 } from "../modules/notFound404/NotFound404";
 
 export const portfolioRoutes = {
-    path: PORTFOLIO_ROUTES.portFolio,
+    path: PORTFOLIO_ROUTES.home,
     element: <Home />,
     children: [
         {
-            path: PORTFOLIO_ROUTES.portFolio,
+            path: PORTFOLIO_ROUTES.home,
             element: <Myself />,
         },
         {
@@ -25,4 +25,4 @@ export const portfolioRoutes = {
             element: <NotFound404 />,
         },
     ]
-}
+};

@@ -1,12 +1,12 @@
 export const PORTFOLIO_ROUTES = {
-    portFolio: '/my-portfolio',
+    home: '/my-portfolio',
     resume: 'resume',
     projects: 'projects',
     contact: 'contact',
     notFound:'*',
 };
 export const NEWS_ROUTES = {
-    home: '/news/home',
+    home: '/news',
     about: 'about',
     contact: 'contact',
     notFound:'*',

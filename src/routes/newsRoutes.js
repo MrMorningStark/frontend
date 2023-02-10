@@ -16,4 +16,4 @@ export const newsRoutes = {
             element: <NotFound404 />,
         },
     ]
-}
+};

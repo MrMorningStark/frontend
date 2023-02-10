@@ -27,7 +27,7 @@ export const NewsNavbar = () => {
                 <li>
                     |
                 </li>
-                <li className="news-subTitle pointer list" onClick={() => navigate(PORTFOLIO_ROUTES.portFolio)}>
+                <li className="news-subTitle pointer list" onClick={() => navigate(PORTFOLIO_ROUTES.home)}>
                     About
                 </li>
                 <li>

@@ -14,10 +14,10 @@ export const Navbar = () => {
         <ul className="nav-title">
             <Circle size="20px" backgroundColor="#ff9d72" margin="0 5px 0 0" />
 
-            <li className="title pointer" onClick={() => navigate(PORTFOLIO_ROUTES.portFolio)}>
+            <li className="title pointer" onClick={() => navigate(PORTFOLIO_ROUTES.home)}>
                 Rajat Khatri
             </li>
-            <li className="subTitle pointer" onClick={() => navigate(PORTFOLIO_ROUTES.portFolio)}>
+            <li className="subTitle pointer" onClick={() => navigate(PORTFOLIO_ROUTES.home)}>
                 Web Developer
             </li>
         </ul>

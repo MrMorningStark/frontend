@@ -46,6 +46,7 @@
 /* full height without navbar */
 .fullHeight {
   height: calc(100vh - 80px);
+  overflow: hidden;
 }
 
 .overflowX{
