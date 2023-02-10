@@ -13,7 +13,6 @@ export async function getTopSories(section) {
 
     }
     catch (error) {
-      alert(error)
       console.log("error", error);
     }
 

@@ -1,5 +1,5 @@
 .news-navbar {
-  background: linear-gradient(-45deg, #395144, #C7BCA1, #aa8b56, #372948);
+  background: linear-gradient(-45deg, #000000, #181D31, #393E46, #20262E);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   top: 0;
@@ -16,7 +16,7 @@
   font-family: "Times New Roman", Times, serif;
   font-size: 36px;
   font-weight: 500;
-  color: #f3efe0;
+  color: snow;
 }
 
 .news-subTitle {
