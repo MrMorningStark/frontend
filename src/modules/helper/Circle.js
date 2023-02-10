@@ -21,6 +21,7 @@ export const Circle = ({
     borderRadius = '50%',
     transform = 'rotate(0deg)',
     transformImg = 'rotate(0deg)',
+    className='',
 
 }) => {
 
@@ -52,7 +53,7 @@ export const Circle = ({
     const [style, setStyle] = React.useState(circleStyle);
 
 
-    return <p  title={title} style={style}
+    return <p className={className}  title={title} style={style}
         onClick={onClick ? onClick : () => { }}
         onMouseOver={() => setStyle({ ...style, ...hoverCSS })}
         onMouseOut={() => setStyle(circleStyle)}

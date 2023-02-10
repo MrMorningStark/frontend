@@ -46,7 +46,6 @@
 /* full height without navbar */
 .fullHeight {
   height: calc(100vh - 80px);
-  overflow: hidden;
 }
 
 .overflowX{
@@ -68,6 +67,12 @@
   right: 10px;
   bottom: 10px;
   z-index: 999;
+}
+
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 /* 2 divs side by side */

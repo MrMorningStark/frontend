@@ -24,7 +24,6 @@
   font-size: large;
   font-weight: 400;
   color: #434242;
-  font-style: italic;
 }
 
 .news_sub_heading {
@@ -49,6 +48,12 @@
   font-family: "Times New Roman", Times, serif;
   font-size: medium;
   font-style: italic;
+}
+
+.content-right{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: auto;
 }
 
 @media only screen and (min-width: 1024px) {

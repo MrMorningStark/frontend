@@ -21,19 +21,19 @@ export const NewsNavbar = () => {
         <ul className="nav-link">
             <Hamburger margin="10px 0 0 auto" color={'white'} size={'2px'} setOpen={setOpen} open={open} />
             <div className="nav-link-box">
-                <li className="news-subTitle pointer list" onClick={() => navigate(NEWS_ROUTES.home)} >
+                <li className="news-subTitle pointer list" onClick={() =>{setOpen(false); navigate(NEWS_ROUTES.home)}} >
                     Home
                 </li>
                 <li>
                     |
                 </li>
-                <li className="news-subTitle pointer list" onClick={() => navigate(PORTFOLIO_ROUTES.home)}>
+                <li className="news-subTitle pointer list" onClick={() => {setOpen(false);navigate(PORTFOLIO_ROUTES.home)}}>
                     About
                 </li>
                 <li>
                     |
                 </li>
-                <li className="news-subTitle pointer list" onClick={() => navigate(NEWS_ROUTES.contact)}>
+                <li className="news-subTitle pointer list" onClick={() => {setOpen(false); navigate(NEWS_ROUTES.contact)}}>
                     Contact
                 </li>
             </div>
