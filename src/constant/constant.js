@@ -1,5 +1,5 @@
 export const PORTFOLIO_ROUTES = {
-    portFolio: '/',
+    portFolio: '/my-portfolio',
     resume: 'resume',
     projects: 'projects',
     contact: 'contact',
