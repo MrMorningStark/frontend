@@ -71,7 +71,7 @@ export const NewsHome = () => {
                 img_url={data?.multimedia?.length > 0 ? isSearch?'https://www.nytimes.com/'+data?.multimedia[0]?.url:data?.multimedia[0]?.url : ''}
                 title={isSearch?data?.headline?.main:data?.title}
                 subTitle={data?.abstract}
-                updated_date={moment(data?.updated_date).format('MMM. DD, YYYY hh:mm A').toString()}
+                created_date={moment(data?.created_date).format('MMM. DD, YYYY hh:mm A').toString()}
                 img_caption={data?.multimedia?.length > 0 ? isSearch?data?.lead_paragraph: data?.multimedia[0]?.caption : ''} />
 
         })
