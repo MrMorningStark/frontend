@@ -1,0 +1,29 @@
+.news_footer{
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer_content{
+    padding: 10px 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color:#F0EEED ;
+    z-index: 99999;
+}
+
+.copyright{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    
+}
+@media only screen and (max-width: 1024px) {
+   
+  }
+  

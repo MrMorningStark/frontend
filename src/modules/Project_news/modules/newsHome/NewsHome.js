@@ -105,7 +105,7 @@ export const NewsHome = () => {
         <NewsHeader setTopStories={setTopStories} />
         <div className="newsBox">
 
-            {!loading && isSearch?data.length>0? <ShowNews />:'no data found':<ShowNews />
+            {!loading && isSearch?data.length>0? <ShowNews />:<div className="fullHeight c">Article Not Found!</div>:<ShowNews />
             }
 
 

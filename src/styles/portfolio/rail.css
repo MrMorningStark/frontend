@@ -12,7 +12,7 @@
   .slider {
 	display: flex;
 	align-items: center;
-	background: #eeeeee;
+	background: snow;
 	box-shadow: 0 10px 20px -5px rgba(238, 238, 238, 0.125);
 	overflow: hidden;
 	position: relative;
@@ -21,7 +21,7 @@
   }
   .slider::before, .slider::after {
 
-	background: linear-gradient(to right, #eeeeee 0%, rgba(238, 238, 238, 0) 100%);
+	background: linear-gradient(to right, snow 0%, rgba(238, 238, 238, 0) 100%);
 	content: "";
 	height: 150px;
 	position: absolute;

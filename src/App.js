@@ -12,6 +12,7 @@ import './styles/portfolio/rail.css';
 import './styles/project_news/newsNavbar.css';
 import './styles/project_news/newsHome.css';
 import './styles/project_news/newsHeader.css';
+import './styles/project_news/newsFooter.css';
 
 import { MyRoutes } from './MyRoutes';
 
