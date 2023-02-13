@@ -1,6 +1,7 @@
 import React from "react";
 
 export const Circle = ({
+    title = '',
     width = null,
     height = null,
     size = '150px',
@@ -17,7 +18,6 @@ export const Circle = ({
     },
     margin = '5px',
     icon = null,
-    title = '',
     borderRadius = '50%',
     transform = 'rotate(0deg)',
     transformImg = 'rotate(0deg)',
@@ -42,7 +42,6 @@ export const Circle = ({
         transition: transition,
         transform: transform,
         boxShadow: 'rgb(38, 57, 77) 0px 10px 15px -10px',
-        zIndex:99
 
     }
 

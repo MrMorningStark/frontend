@@ -14,6 +14,8 @@ export const NEWS_ROUTES = {
 
 export const API_BASEURL = 'https://api.nytimes.com/svc/topstories/v2/';
 
+export const API_SEARCH_BASEURL = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?q=';
+
 export const API_KEY = process.env.REACT_APP_API_KEY;
 
 export const TOP_STORIES = {
